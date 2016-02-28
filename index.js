@@ -1,4 +1,5 @@
 var title = process.env.SHORTURL_TITLE;
+process.env.NODE_ENV = "production";
 
 require("@mrgalaxy/shorturl")({
 	title: title,
