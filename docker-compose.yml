@@ -1,4 +1,8 @@
-tjme:
-  image: 'mrgalaxy/tjme:latest'
+redis:
+  image: 'redis:latest'
+shorturl:
+  image: 'mrgalaxy/shorturl:latest'
+  links:
+    - 'redis:db'
   ports:
     - '80:80'
