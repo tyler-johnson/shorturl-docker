@@ -4,3 +4,5 @@ shorturl:
   image: 'mrgalaxy/shorturl:latest'
   links:
     - 'redis:db'
+  ports:
+    - '80:80'
