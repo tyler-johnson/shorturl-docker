@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "shorturl-server --production"
+    "start": "node index.js"
   },
   "dependencies": {
     "@mrgalaxy/shorturl": "^3.0.0"

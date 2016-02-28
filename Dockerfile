@@ -12,5 +12,5 @@ COPY . /usr/src/app/
 RUN [ "npm", "install", "--production" ]
 
 # run app
-EXPOSE 8080
+EXPOSE 80
 CMD [ "npm", "start" ]
