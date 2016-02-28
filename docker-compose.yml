@@ -1,0 +1,6 @@
+redis:
+  image: 'redis:latest'
+shorturl:
+  image: 'mrgalaxy/shorturl:latest'
+  links:
+    - 'redis:db'
