@@ -1,19 +1,19 @@
 {
-  "name": "@mrgalaxy/shorturl-docker",
+  "name": "@mrgalaxy/tjme-docker",
   "version": "1.0.0",
-  "description": "Builds the Docker image for @mrgalaxy/shorturl",
+  "description": "Docker compatible runtime for @mrgalaxy/tjme",
   "private": true,
-  "author": "Tyler Johnson <tyler@vintyge.com>",
+  "author": "Tyler Johnson <tyler@tylerjohnson.me>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tyler-johnson/shorturl-docker.git"
+    "url": "https://github.com/tyler-johnson/tjme-docker.git"
   },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@mrgalaxy/shorturl": "^3.0.0"
+    "@mrgalaxy/tjme": "^1.0.0"
   },
   "keywords": [],
   "license": "MIT"
